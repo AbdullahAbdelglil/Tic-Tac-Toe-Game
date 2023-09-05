@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TIC TAC TOE</title>
+</head>
+<body>
+    <div class="splachScreen">
+        <div class="container">
+            <span id="sp1">X Player Name :</span>
+            <input type="text" id="player1" onkeyup="get_info1(this)">
+            <span id="sp2">O Player Name :</span>
+            <input type="text" id="player2" onkeyup="get_info2(this)">
+            <button id="start" onclick="removeScreen()">Start </button>
+        </div>
+    </div>
+<div class="game">
+    <div class="title"><span class="sp1">X O</span> <span class="sp2"> GAME</span></div>
+
+<div class="square" id="item1" onclick="game(this.id)"></div>
+<div class="square" id="item2" onclick="game(this.id)"></div>
+<div class="square" id="item3" onclick="game(this.id)"></div>
+
+<div class="square" id="item4" onclick="game(this.id)"></div>
+<div class="square" id="item5" onclick="game(this.id)"></div>
+<div class="square" id="item6" onclick="game(this.id)"></div>
+
+<div class="square" id="item7" onclick="game(this.id)"></div>
+<div class="square" id="item8" onclick="game(this.id)"></div>
+<div class="square" id="item9" onclick="game(this.id)"></div>
+
+</div>
+<div class="playAgainsc">
+    <div class="PA-container">Play Again ?
+        <button id="ok" onclick="playAgain()">Play Again</button>
+        <button id="no" onclick="cansel()">Cansel</button>
+    </div>
+</div>
+<script src="main.js"></script>
+
+</body>

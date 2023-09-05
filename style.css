@@ -1,0 +1,179 @@
+html{
+    background-color:rgb(20, 54, 66);
+}
+.splachScreen{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgb(20, 54, 66,0.9);
+}
+.splachScreen .container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: #1885ff;
+}
+.splachScreen .container input{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding:8px;
+    border-radius: 5px;
+    cursor: auto;
+    font-size: 18px;
+    border: none;
+    width: 300px;
+    border: none;
+}
+.splachScreen .container input#player1{
+    top: 25%;
+}
+.splachScreen .container input#player2{
+    top: 50%;
+}
+.splachScreen .container input:focus{
+    width: 320px;
+    border: none;
+}
+.splachScreen .container button{
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+    padding:8px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    width: 300px;
+    transition: background-color 0.75s;
+    transition: letter-spacing 0.75s;
+}
+.splachScreen .container button:hover{
+    background-color:rgb(20, 54, 66) ;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+.splachScreen .container span{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    left: 39px;
+}
+.splachScreen .container span#sp1{
+    top: 12%;
+}
+.splachScreen .container span#sp2{
+    top: 38%;
+}
+.game{
+    width: 800px;
+    text-align: center;
+    font-family:system-ui;
+    color:black;
+    margin:auto;
+    font-weight: 700;
+}
+.title{
+    background-color:#F15412;
+    margin : 15px 0;
+    padding : 20px 0;
+    border-radius: 3px;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.title:hover{
+    letter-spacing: 3px;
+    cursor:auto;
+}
+.sp1{
+    color:white;
+}
+.square{
+    width:258px;
+    height: 258px;
+    border-radius: 3px;
+    background-color: #F15412;
+    float:left;
+    margin:4px;
+    font-size: 150px;
+    color:white;
+    text-align: center;
+    transition: 0.25s;
+}
+.square:hover{
+    background-color: aliceblue;
+    color:black;
+    cursor:pointer;
+    
+}
+.no-clicking{
+    pointer-events: none;
+}
+.playAgainsc{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgb(20, 54, 66,0.9);
+    display:none;
+}
+.playAgainsc .PA-container{
+    width:300px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color:#1885ff;
+    padding: 15px 25px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.PA-container button#ok{
+    cursor: pointer;
+    width: 45%;
+    height: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 15px;
+    position: absolute;
+    top:65%;
+    right: 51%;
+}
+.PA-container button#no{
+    cursor: pointer;
+    width: 45%;
+    height: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 15px;
+    position: absolute;
+    top:65%;
+    right: 4%;
+}
+.PA-container button#ok:hover{
+    background-color: #143642;
+    color: #fff;
+}
+.PA-container button#no:hover{
+    background-color: #143642;
+    color: #fff;
+}
