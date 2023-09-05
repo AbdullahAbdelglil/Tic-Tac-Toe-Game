@@ -8,13 +8,8 @@ Tic-Tac-Toe Game is a web-based implementation of the classic Tic-Tac-Toe game d
 ![tic-tac-toe (2)](https://github.com/AbdullahAbdelglil/Tic-Tac-Toe-Game/assets/118194521/21a14eb0-162e-4c45-8518-15fa96fe8bea)
 
 <br>
-<br>
 
 ## Demo
-
-
-
-![tic-tac-toe-demo.mp4](https://github.com/AbdullahAbdelglil/Tic-Tac-Toe-Game/assets/118194521/5c796317-c382-4139-b093-2fe0dbeff856)
 
 
 
