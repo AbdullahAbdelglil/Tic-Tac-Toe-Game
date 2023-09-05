@@ -2,12 +2,17 @@
 Tic-Tac-Toe Game is a web-based implementation of the classic Tic-Tac-Toe game developed using HTML, CSS, and JavaScript. This project offers both a single-player , and a two-player mode for local multiplayer fun.
 
 ## Game Preview
+
 <br>
 
-![tic-tac-toe (3)](https://github.com/AbdullahAbdelglil/Tic-Tac-Toe-Game/assets/118194521/ddbf8e71-0f9e-4921-85b0-609297c63b1d)
-<br><br>
+![tic-tac-toe (2)](https://github.com/AbdullahAbdelglil/Tic-Tac-Toe-Game/assets/118194521/21a14eb0-162e-4c45-8518-15fa96fe8bea)
+
+<br>
+<br>
 
 ## Demo
+
+![tic-tac-toe.mp4](https://github.com/AbdullahAbdelglil/Tic-Tac-Toe-Game/assets/118194521/03c6897a-7a64-47de-9aa5-95b7e7d1849b)
 
 
 ## Installation
