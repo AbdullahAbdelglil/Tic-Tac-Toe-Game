@@ -12,4 +12,5 @@ Tic-Tac-Toe Game is a web-based implementation of the classic Tic-Tac-Toe game d
 
 ### to install this game 
 - clone this repo `https://github.com/AbdullahAbdelglil/Tic-Tac-Toe-Game/`
+- cd `Tic-Tac-Toe-Game`
 - open `index` file and enjoy 
