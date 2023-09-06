@@ -17,6 +17,6 @@ https://github.com/AbdullahAbdelglil/Tic-Tac-Toe-Game/assets/118194521/9dd0f62f-
 ## Installation
 
 ### to install this game 
-- clone this repo `https://github.com/AbdullahAbdelglil/Tic-Tac-Toe-Game/`
+- clone this repo `https://github.com/AbdullahAbdelglil/Tic-Tac-Toe-Game`
 - cd `Tic-Tac-Toe-Game`
 - open `index` file and enjoy 
